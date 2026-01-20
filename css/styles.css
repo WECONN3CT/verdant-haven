@@ -3182,14 +3182,16 @@ body.menu-open footer {
 
   .nav-content {
     padding: 0.5rem 1rem;
-    height: 60px;
+    height: 70px;
+    display: flex;
+    align-items: center;
   }
 
   .logo-img {
-    height: 70px;
+    height: 90px;
     margin: 0;
     position: relative;
-    top: 8px;
+    top: 12px;
     object-fit: contain;
   }
 
@@ -3212,7 +3214,7 @@ body.menu-open footer {
     bottom: 0;
     background: var(--white);
     z-index: 999;
-    padding: 80px 1.25rem 1.5rem;
+    padding: 90px 1.25rem 1.5rem;
     display: none;
     flex-direction: column;
     overflow-y: auto;
