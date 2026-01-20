@@ -1515,6 +1515,23 @@ a.footer-contact-item-new:hover {
   margin: 0;
 }
 
+.made-by {
+  font-size: 0.8rem;
+  color: var(--muted-foreground);
+}
+
+.made-by a {
+  color: var(--primary);
+  font-weight: 600;
+  text-decoration: none;
+  transition: opacity 0.2s ease;
+}
+
+.made-by a:hover {
+  opacity: 0.8;
+  text-decoration: underline;
+}
+
 .scroll-top-btn-new {
   display: inline-flex;
   align-items: center;
