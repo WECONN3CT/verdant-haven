@@ -3166,9 +3166,10 @@ a, button, input, textarea, select {
   }
 
   .logo-img {
-    height: 50px;
-    margin: 0;
+    height: 70px;
+    margin: -10px 0;
     top: 0;
+    object-fit: contain;
   }
 
   .mobile-menu-btn {
