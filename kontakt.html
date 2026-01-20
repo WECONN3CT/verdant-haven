@@ -399,10 +399,13 @@
   <script>
     function toggleMenu() {
       var menu = document.getElementById('mobile-menu');
+      var body = document.body;
       if (menu.classList.contains('active')) {
         menu.classList.remove('active');
+        body.classList.remove('menu-open');
       } else {
         menu.classList.add('active');
+        body.classList.add('menu-open');
       }
     }
 
