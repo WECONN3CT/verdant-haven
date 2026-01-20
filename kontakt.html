@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kontakt | Haus und Garten Service</title>
+  <meta name="description" content="Kontaktieren Sie Haus und Garten Service für eine kostenlose Beratung. Telefon, E-Mail oder Kontaktformular.">
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+  <!-- Page Loader -->
+  <div id="page-loader" class="page-loader">
+    <img src="images/Haus-gartenservice.png" alt="Laden..." class="loader-logo">
+    <span class="loader-text">WIRD GELADEN...</span>
+  </div>
+
+  <!-- Navigation -->
+  <header class="nav">
+    <div class="container nav-content">
+      <a href="index.html" class="logo">
+        <img src="images/Haus-gartenservice.png" alt="Haus und Garten Service Logo" class="logo-img">
+      </a>
+
+      <nav class="nav-links">
+        <a href="index.html" class="nav-link">Startseite</a>
+        <a href="leistungen.html" class="nav-link">Leistungen</a>
+        <a href="projekte.html" class="nav-link">Projekte</a>
+        <a href="ueber-uns.html" class="nav-link">Über Uns</a>
+        <a href="kontakt.html" class="nav-link active">Kontakt</a>
+      </nav>
+
+      <div class="nav-cta">
+        <a href="tel:022259558997" class="btn btn-ghost">Anrufen</a>
+        <a href="kontakt.html" class="btn btn-primary">Angebot anfordern</a>
+      </div>
+
+      <button class="mobile-menu-btn" onclick="toggleMenu()">
+        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
+      </button>
+    </div>
+
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="index.html">Startseite</a>
+      <a href="leistungen.html">Leistungen</a>
+      <a href="projekte.html">Projekte</a>
+      <a href="ueber-uns.html">Über Uns</a>
+      <a href="kontakt.html" class="active">Kontakt</a>
+    </div>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="page-hero">
+      <!-- Subtle Background Pattern -->
+      <div class="page-hero-pattern"></div>
+
+      <!-- Floating Shapes -->
+      <div class="page-hero-shapes">
+        <div class="shape shape-1"></div>
+        <div class="shape shape-2"></div>
+        <div class="shape shape-3"></div>
+      </div>
+
+      <!-- Accent Line -->
+      <div class="page-hero-accent"></div>
+
+      <!-- Hero Content -->
+      <div class="container page-hero-content">
+        <div class="page-hero-badge">
+          <div class="page-hero-badge-dot"></div>
+          <span>Wir freuen uns auf Sie</span>
+        </div>
+
+        <h1 class="page-hero-title">Nehmen Sie <span class="highlight">Kontakt</span> auf</h1>
+
+        <p class="page-hero-description">
+          Haben Sie Fragen oder wünschen ein Angebot? Wir sind für Sie da – persönlich, schnell und unverbindlich.
+        </p>
+
+        <!-- Features -->
+        <div class="page-hero-features">
+          <div class="page-hero-feature">
+            <svg class="page-hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>24h Reaktionszeit</span>
+          </div>
+          <div class="page-hero-feature">
+            <svg class="page-hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Kostenlose Beratung</span>
+          </div>
+          <div class="page-hero-feature">
+            <svg class="page-hero-feature-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5">
+              <polyline points="20 6 9 17 4 12"></polyline>
+            </svg>
+            <span>Unverbindlich</span>
+          </div>
+        </div>
+
+        <!-- CTA Buttons -->
+        <div class="page-hero-buttons">
+          <a href="tel:022259558997" class="btn btn-hero btn-hero-green">Jetzt anrufen</a>
+          <a href="https://wa.me/4922259558997" target="_blank" class="btn btn-hero btn-glass">
+            <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+            </svg>
+            WhatsApp
+          </a>
+        </div>
+
+        <!-- Stats -->
+        <div class="page-hero-stats">
+          <div class="page-hero-stat">
+            <div class="page-hero-stat-value">24h</div>
+            <div class="page-hero-stat-label">Reaktionszeit</div>
+          </div>
+          <div class="page-hero-stat">
+            <div class="page-hero-stat-value">Mo-Sa</div>
+            <div class="page-hero-stat-label">Erreichbar</div>
+          </div>
+          <div class="page-hero-stat">
+            <div class="page-hero-stat-value">07-19</div>
+            <div class="page-hero-stat-label">Uhr</div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section class="section">
+      <div class="container">
+        <div class="contact-grid">
+          <!-- Contact Info -->
+          <div>
+            <h2 style="margin-bottom: 1.5rem;">Kontaktdaten</h2>
+            <p style="color: var(--muted-foreground); margin-bottom: 2rem;">
+              Sie erreichen uns telefonisch, per E-Mail oder über das Kontaktformular. Wir melden uns schnellstmöglich bei Ihnen zurück.
+            </p>
+
+            <div class="contact-info-card">
+              <div class="contact-info-item contact-item-phone">
+                <div class="contact-info-icon contact-icon-animated">📞</div>
+                <div class="contact-info-text">
+                  <h4>Telefon</h4>
+                  <p><a href="tel:022259558997">02225 9558997</a></p>
+                </div>
+              </div>
+
+              <div class="contact-info-item contact-item-email">
+                <div class="contact-info-icon contact-icon-animated">✉️</div>
+                <div class="contact-info-text">
+                  <h4>E-Mail</h4>
+                  <p><a href="mailto:H-G-service@outlook.com">H-G-service@outlook.com</a></p>
+                </div>
+              </div>
+
+              <div class="contact-info-item contact-item-address">
+                <div class="contact-info-icon contact-icon-animated">📍</div>
+                <div class="contact-info-text">
+                  <h4>Adresse</h4>
+                  <p>Töpferstraße 89<br>53343 Wachtberg</p>
+                </div>
+              </div>
+
+              <div class="contact-info-item contact-item-hours" style="margin-bottom: 0;">
+                <div class="contact-info-icon contact-icon-animated">🕐</div>
+                <div class="contact-info-text">
+                  <h4>Öffnungszeiten</h4>
+                  <p>Mo - Sa: 07:00 - 19:00 Uhr</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Quick Contact Buttons -->
+            <div style="margin-top: 2rem; display: flex; flex-direction: column; gap: 1rem;">
+              <a href="tel:022259558997" class="btn btn-primary" style="width: 100%; justify-content: center;">
+                Jetzt anrufen
+              </a>
+              <a href="https://wa.me/4922259558997" target="_blank" class="btn btn-outline" style="width: 100%; justify-content: center; background: #25D366; border-color: #25D366; color: white; gap: 0.5rem;">
+                <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink: 0;">
+                  <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+                </svg>
+                WhatsApp schreiben
+              </a>
+            </div>
+          </div>
+
+          <!-- Contact Form -->
+          <div class="contact-form">
+            <h2 style="margin-bottom: 1.5rem;">Nachricht senden</h2>
+            <form action="mailto:H-G-service@outlook.com" method="post" enctype="text/plain">
+              <div class="form-group">
+                <label for="name">Name *</label>
+                <input type="text" id="name" name="name" required placeholder="Ihr Name">
+              </div>
+
+              <div class="form-group">
+                <label for="email">E-Mail *</label>
+                <input type="email" id="email" name="email" required placeholder="ihre@email.de">
+              </div>
+
+              <div class="form-group">
+                <label for="phone">Telefon</label>
+                <input type="tel" id="phone" name="phone" placeholder="Ihre Telefonnummer">
+              </div>
+
+              <div class="form-group">
+                <label for="service">Gewünschte Leistung</label>
+                <select id="service" name="service">
+                  <option value="">Bitte wählen...</option>
+                  <option value="gartengestaltung">Gartengestaltung</option>
+                  <option value="terrassenbau">Terrassenbau</option>
+                  <option value="baumpflege">Baumpflege</option>
+                  <option value="hausmeisterservice">Hausmeisterservice</option>
+                  <option value="winterdienst">Winterdienst</option>
+                  <option value="gebaeudereinigung">Gebäudereinigung</option>
+                  <option value="sonstiges">Sonstiges</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label for="message">Nachricht *</label>
+                <textarea id="message" name="message" required placeholder="Beschreiben Sie Ihr Anliegen..."></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary" style="width: 100%;">
+                Nachricht senden
+              </button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Map Section -->
+    <section class="section" style="background-color: var(--muted); padding-top: 0;">
+      <div class="container">
+        <div class="section-header">
+          <h2 class="section-title">So finden Sie uns</h2>
+          <p class="section-subtitle">Töpferstraße 89, 53343 Wachtberg</p>
+        </div>
+
+        <div style="background: var(--card); border-radius: 16px; overflow: hidden; box-shadow: 0 4px 20px rgba(0,0,0,0.1);">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2524.8!2d7.1044!3d50.6178!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47bee17b4c3eb82d%3A0x4c7e9e7e8f2a8b1!2sT%C3%B6pferstra%C3%9Fe%2089%2C%2053343%20Wachtberg!5e0!3m2!1sde!2sde!4v1"
+            width="100%"
+            height="400"
+            style="border:0;"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+          </iframe>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer-new">
+    <!-- Footer Top - CTA Banner -->
+    <div class="footer-cta-banner">
+      <div class="container">
+        <div class="footer-cta-content">
+          <div class="footer-cta-text">
+            <h3>Bereit für Ihr Projekt?</h3>
+            <p>Kontaktieren Sie uns jetzt für eine kostenlose Beratung</p>
+          </div>
+          <div class="footer-cta-buttons">
+            <a href="tel:022259558997" class="footer-cta-btn footer-cta-btn-primary">
+              <span class="footer-cta-icon">📞</span>
+              02225 9558997
+            </a>
+            <a href="https://wa.me/4922259558997" target="_blank" class="footer-cta-btn footer-cta-btn-whatsapp">
+              <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="currentColor" style="flex-shrink: 0;">
+                <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+              </svg>
+              WhatsApp
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Main -->
+    <div class="footer-main-new">
+      <div class="container">
+        <div class="footer-grid-new">
+          <!-- Logo & Beschreibung -->
+          <div class="footer-brand">
+            <img src="images/Haus-gartenservice.png" alt="Haus und Garten Service Logo" class="footer-logo-new">
+            <p class="footer-brand-text">Ihr zuverlässiger Partner für professionelle Garten-, Haus- und Immobilien-Dienstleistungen in der Region Bonn/Wachtberg.</p>
+            <div class="footer-badges">
+              <div class="footer-badge">
+                <span class="footer-badge-icon">✓</span>
+                <span>20+ Jahre Erfahrung</span>
+              </div>
+              <div class="footer-badge">
+                <span class="footer-badge-icon">✓</span>
+                <span>500+ Projekte</span>
+              </div>
+            </div>
+          </div>
+
+          <!-- Quick Links -->
+          <div class="footer-links-group">
+            <h4 class="footer-title">Leistungen</h4>
+            <ul class="footer-links">
+              <li><a href="leistungen.html">Gartengestaltung</a></li>
+              <li><a href="leistungen.html">Terrassenbau</a></li>
+              <li><a href="leistungen.html">Baumpflege</a></li>
+              <li><a href="leistungen.html">Hausmeisterservice</a></li>
+              <li><a href="leistungen.html">Winterdienst</a></li>
+              <li><a href="leistungen.html">Gebäudereinigung</a></li>
+            </ul>
+          </div>
+
+          <!-- Navigation -->
+          <div class="footer-links-group">
+            <h4 class="footer-title">Navigation</h4>
+            <ul class="footer-links">
+              <li><a href="index.html">Startseite</a></li>
+              <li><a href="leistungen.html">Leistungen</a></li>
+              <li><a href="projekte.html">Projekte</a></li>
+              <li><a href="ueber-uns.html">Über Uns</a></li>
+              <li><a href="kontakt.html">Kontakt</a></li>
+            </ul>
+          </div>
+
+          <!-- Kontakt -->
+          <div class="footer-contact">
+            <h4 class="footer-title">Kontakt</h4>
+            <div class="footer-contact-items">
+              <a href="tel:022259558997" class="footer-contact-item-new">
+                <div class="footer-contact-icon">📞</div>
+                <div>
+                  <span class="footer-contact-label">Telefon</span>
+                  <span class="footer-contact-value">02225 9558997</span>
+                </div>
+              </a>
+              <a href="mailto:H-G-service@outlook.com" class="footer-contact-item-new">
+                <div class="footer-contact-icon">✉️</div>
+                <div>
+                  <span class="footer-contact-label">E-Mail</span>
+                  <span class="footer-contact-value">H-G-service@outlook.com</span>
+                </div>
+              </a>
+              <div class="footer-contact-item-new">
+                <div class="footer-contact-icon">📍</div>
+                <div>
+                  <span class="footer-contact-label">Adresse</span>
+                  <span class="footer-contact-value">Töpferstraße 89, 53343 Wachtberg</span>
+                </div>
+              </div>
+              <div class="footer-contact-item-new">
+                <div class="footer-contact-icon">🕐</div>
+                <div>
+                  <span class="footer-contact-label">Öffnungszeiten</span>
+                  <span class="footer-contact-value">Mo - Sa: 07:00 - 19:00</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Footer Bottom -->
+    <div class="footer-bottom-new">
+      <div class="container">
+        <div class="footer-bottom-content">
+          <p>© 2024 Haus und Garten Service. Alle Rechte vorbehalten.</p>
+          <button class="scroll-top-btn-new" onclick="scrollToTop()">
+            <span>↑</span>
+            Nach oben
+          </button>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- WhatsApp Button -->
+  <a href="https://wa.me/4922259558997" target="_blank" class="whatsapp-btn" title="WhatsApp">
+    <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="white">
+      <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"/>
+    </svg>
+  </a>
+
+  <script>
+    function toggleMenu() {
+      var menu = document.getElementById('mobile-menu');
+      if (menu.classList.contains('active')) {
+        menu.classList.remove('active');
+      } else {
+        menu.classList.add('active');
+      }
+    }
+
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
+
+    // Page Loader
+    window.addEventListener('load', function() {
+      var loader = document.getElementById('page-loader');
+      setTimeout(function() {
+        loader.classList.add('loaded');
+      }, 500);
+    });
+
+    // Show loader on page navigation
+    document.querySelectorAll('a').forEach(function(link) {
+      if (link.hostname === window.location.hostname && !link.hasAttribute('target')) {
+        link.addEventListener('click', function(e) {
+          e.preventDefault();
+          var loader = document.getElementById('page-loader');
+          var href = this.getAttribute('href');
+          loader.classList.remove('loaded');
+          setTimeout(function() {
+            window.location.href = href;
+          }, 400);
+        });
+      }
+    });
+  </script>
+</body>
+</html>
