@@ -3207,15 +3207,14 @@ body.menu-open footer {
     position: fixed;
     left: 0;
     right: 0;
-    top: 60px;
+    top: 0;
     bottom: 0;
     background: var(--white);
     z-index: 999;
-    padding: 1.5rem 1.25rem;
+    padding: 80px 1.25rem 1.5rem;
     display: none;
     flex-direction: column;
     overflow-y: auto;
-    animation: slideIn 0.3s ease;
     -webkit-overflow-scrolling: touch;
   }
 
