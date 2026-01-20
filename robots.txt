@@ -1,0 +1,14 @@
+# Robots.txt for Haus & Garten Service
+# https://weconn3ct.github.io/verdant-haven/
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://weconn3ct.github.io/verdant-haven/sitemap.xml
+
+# Disallow admin/dev areas (none exist, but good practice)
+Disallow: /admin/
+Disallow: /dev/
+Disallow: /*.bak$
+Disallow: /*.old$

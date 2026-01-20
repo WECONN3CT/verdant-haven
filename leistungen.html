@@ -3,8 +3,34 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Leistungen | Haus und Garten Service</title>
-  <meta name="description" content="Unsere Leistungen: Gartengestaltung, Terrassenbau, Baumpflege, Hausmeisterservice und mehr.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>Leistungen | Gartengestaltung, Terrassenbau & Hausmeisterservice | Haus & Garten Service</title>
+  <meta name="description" content="Unsere Leistungen: Professionelle Gartengestaltung, Terrassenbau, Baumpflege, Hausmeisterservice und Winterdienst in Bonn und Wachtberg. Jetzt informieren!">
+  <meta name="keywords" content="Gartengestaltung Bonn, Terrassenbau Wachtberg, Baumpflege, Hausmeisterservice, Winterdienst, Gartenpflege">
+  <meta name="author" content="Haus & Garten Service">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://weconn3ct.github.io/verdant-haven/leistungen.html">
+
+  <!-- Open Graph -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://weconn3ct.github.io/verdant-haven/leistungen.html">
+  <meta property="og:title" content="Leistungen | Haus & Garten Service">
+  <meta property="og:description" content="Gartengestaltung, Terrassenbau, Baumpflege und Hausmeisterservice in Bonn und Wachtberg.">
+  <meta property="og:image" content="https://weconn3ct.github.io/verdant-haven/images/og-image.jpg">
+  <meta property="og:locale" content="de_DE">
+
+  <!-- Favicon & Theme -->
+  <link rel="icon" type="image/png" href="images/Haus-gartenservice.png">
+  <link rel="apple-touch-icon" href="images/Haus-gartenservice.png">
+  <meta name="theme-color" content="#2D5016">
+
+  <!-- Preconnect -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
@@ -22,7 +48,7 @@
         <img src="images/Haus-gartenservice.png" alt="Haus und Garten Service Logo" class="logo-img">
       </a>
 
-      <nav class="nav-links">
+      <nav class="nav-links" aria-label="Hauptnavigation">
         <a href="index.html" class="nav-link">Startseite</a>
         <a href="leistungen.html" class="nav-link active">Leistungen</a>
         <a href="projekte.html" class="nav-link">Projekte</a>
@@ -35,8 +61,8 @@
         <a href="kontakt.html" class="btn btn-primary">Angebot anfordern</a>
       </div>
 
-      <button class="mobile-menu-btn" onclick="toggleMenu()">
-        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <line x1="4" x2="20" y1="12" y2="12"></line>
           <line x1="4" x2="20" y1="6" y2="6"></line>
           <line x1="4" x2="20" y1="18" y2="18"></line>
@@ -142,7 +168,7 @@
         <div class="services-grid">
           <!-- Gartengestaltung -->
           <div class="service-card">
-            <img src="images/service-garden.jpg" alt="Gartengestaltung" class="service-card-image">
+            <img src="images/service-garden.jpg" alt="Gartengestaltung" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Gartengestaltung</h3>
               <p>Professionelle Neugestaltung und Umgestaltung Ihres Gartens. Wir planen und realisieren Ihren Traumgarten – von der Pflanzplanung bis zur Bewässerung.</p>
@@ -158,7 +184,7 @@
 
           <!-- Terrassenbau -->
           <div class="service-card">
-            <img src="images/service-terrace.jpg" alt="Terrassenbau" class="service-card-image">
+            <img src="images/service-terrace.jpg" alt="Terrassenbau" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Terrassenbau</h3>
               <p>Individuelle Terrassen aus hochwertigen Materialien. Ob Holz, WPC oder Naturstein – wir schaffen Ihr persönliches Outdoor-Wohnzimmer.</p>
@@ -174,7 +200,7 @@
 
           <!-- Baumpflege -->
           <div class="service-card">
-            <img src="images/service-garden.jpg" alt="Baumpflege" class="service-card-image">
+            <img src="images/service-garden.jpg" alt="Baumpflege" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Baumpflege</h3>
               <p>Fachgerechte Pflege und Schnitt Ihrer Bäume. Von der Kronenpflege bis zur Baumfällung – sicher und professionell.</p>
@@ -190,7 +216,7 @@
 
           <!-- Hausmeisterservice -->
           <div class="service-card">
-            <img src="images/service-property.jpg" alt="Hausmeisterservice" class="service-card-image">
+            <img src="images/service-property.jpg" alt="Hausmeisterservice" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Hausmeisterservice</h3>
               <p>Zuverlässige Betreuung Ihrer Immobilie. Wir kümmern uns um alle anfallenden Arbeiten rund um Haus und Grundstück.</p>
@@ -206,7 +232,7 @@
 
           <!-- Winterdienst -->
           <div class="service-card">
-            <img src="images/winterdienst.jpg" alt="Winterdienst" class="service-card-image">
+            <img src="images/winterdienst.jpg" alt="Winterdienst" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Winterdienst</h3>
               <p>Professioneller Räum- und Streudienst. Wir sorgen für sichere Wege und Zufahrten – zuverlässig und pünktlich.</p>
@@ -222,7 +248,7 @@
 
           <!-- Gebaeudereinigung -->
           <div class="service-card">
-            <img src="images/gebäudereinigung.jpg" alt="Gebäudereinigung" class="service-card-image">
+            <img src="images/gebäudereinigung.jpg" alt="Gebäudereinigung" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Gebäudereinigung</h3>
               <p>Professionelle Reinigung für Privat und Gewerbe. Sauberkeit auf höchstem Niveau – regelmäßig oder als Einzelauftrag.</p>

@@ -3,9 +3,85 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Haus und Garten Service - Bonn/Wachtberg</title>
-  <meta name="description" content="Professionelle Gartenpflege, Terrassenbau und Hausmeisterservice in Bonn und Wachtberg.">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+  <!-- SEO Meta Tags -->
+  <title>Haus & Garten Service Bonn/Wachtberg | Professionelle Gartenpflege & Hausmeisterservice</title>
+  <meta name="description" content="Professioneller Haus- und Gartenservice in Bonn und Wachtberg. Gartengestaltung, Terrassenbau, Baumpflege, Hausmeisterservice. Über 20 Jahre Erfahrung. Jetzt kostenlos beraten lassen!">
+  <meta name="keywords" content="Gartenservice Bonn, Gartenpflege Wachtberg, Terrassenbau, Hausmeisterservice, Baumpflege, Winterdienst, Gartengestaltung">
+  <meta name="author" content="Haus & Garten Service">
+  <meta name="robots" content="index, follow">
+  <link rel="canonical" href="https://weconn3ct.github.io/verdant-haven/">
+
+  <!-- Open Graph / Facebook -->
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://weconn3ct.github.io/verdant-haven/">
+  <meta property="og:title" content="Haus & Garten Service Bonn/Wachtberg">
+  <meta property="og:description" content="Professionelle Gartenpflege, Terrassenbau und Hausmeisterservice. Über 20 Jahre Erfahrung in Bonn und Wachtberg.">
+  <meta property="og:image" content="https://weconn3ct.github.io/verdant-haven/images/og-image.jpg">
+  <meta property="og:locale" content="de_DE">
+  <meta property="og:site_name" content="Haus & Garten Service">
+
+  <!-- Twitter -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Haus & Garten Service Bonn/Wachtberg">
+  <meta name="twitter:description" content="Professionelle Gartenpflege und Hausmeisterservice">
+  <meta name="twitter:image" content="https://weconn3ct.github.io/verdant-haven/images/og-image.jpg">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/Haus-gartenservice.png">
+  <link rel="apple-touch-icon" href="images/Haus-gartenservice.png">
+
+  <!-- Theme Color -->
+  <meta name="theme-color" content="#2D5016">
+  <meta name="msapplication-TileColor" content="#2D5016">
+
+  <!-- Mobile Web App -->
+  <meta name="mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+  <!-- Preconnect for Performance -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- CSS -->
   <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Schema.org Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "Haus & Garten Service",
+    "image": "https://weconn3ct.github.io/verdant-haven/images/Haus-gartenservice.png",
+    "@id": "https://weconn3ct.github.io/verdant-haven/",
+    "url": "https://weconn3ct.github.io/verdant-haven/",
+    "telephone": "+49-2225-9558997",
+    "email": "H-G-service@outlook.com",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "Töpferstraße 89",
+      "addressLocality": "Wachtberg",
+      "postalCode": "53343",
+      "addressCountry": "DE"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 50.6294,
+      "longitude": 7.1147
+    },
+    "openingHoursSpecification": {
+      "@type": "OpeningHoursSpecification",
+      "dayOfWeek": ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"],
+      "opens": "07:00",
+      "closes": "19:00"
+    },
+    "priceRange": "€€",
+    "areaServed": ["Bonn", "Wachtberg", "Meckenheim", "Rheinbach"],
+    "serviceType": ["Gartengestaltung", "Terrassenbau", "Baumpflege", "Hausmeisterservice", "Winterdienst"]
+  }
+  </script>
 </head>
 <body>
 
@@ -22,7 +98,7 @@
         <img src="images/Haus-gartenservice.png" alt="Haus und Garten Service Logo" class="logo-img">
       </a>
 
-      <nav class="nav-links">
+      <nav class="nav-links" aria-label="Hauptnavigation">
         <a href="index.html" class="nav-link active">Startseite</a>
         <a href="leistungen.html" class="nav-link">Leistungen</a>
         <a href="projekte.html" class="nav-link">Projekte</a>
@@ -35,8 +111,8 @@
         <a href="kontakt.html" class="btn btn-primary">Angebot anfordern</a>
       </div>
 
-      <button class="mobile-menu-btn" onclick="toggleMenu()">
-        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+      <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
           <line x1="4" x2="20" y1="12" y2="12"></line>
           <line x1="4" x2="20" y1="6" y2="6"></line>
           <line x1="4" x2="20" y1="18" y2="18"></line>
@@ -112,7 +188,7 @@
 
         <div class="services-grid">
           <div class="service-card">
-            <img src="images/service-garden.jpg" alt="Gartengestaltung" class="service-card-image">
+            <img src="images/service-garden.jpg" alt="Gartengestaltung" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Gartengestaltung</h3>
               <p>Professionelle Gestaltung und Pflege Ihres Gartens nach Ihren Wünschen.</p>
@@ -121,7 +197,7 @@
           </div>
 
           <div class="service-card">
-            <img src="images/service-terrace.jpg" alt="Terrassenbau" class="service-card-image">
+            <img src="images/service-terrace.jpg" alt="Terrassenbau" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Terrassenbau</h3>
               <p>Individuelle Terrassen aus hochwertigen Materialien für Ihr Outdoor-Wohnzimmer.</p>
@@ -130,7 +206,7 @@
           </div>
 
           <div class="service-card">
-            <img src="images/service-property.jpg" alt="Hausmeisterservice" class="service-card-image">
+            <img src="images/service-property.jpg" alt="Hausmeisterservice" class="service-card-image" loading="lazy">
             <div class="service-card-content">
               <h3>Hausmeisterservice</h3>
               <p>Zuverlässige Betreuung Ihrer Immobilie – von Reinigung bis Winterdienst.</p>
@@ -182,7 +258,7 @@
 
         <div class="projects-grid">
           <div class="project-card">
-            <img src="images/garden-before.jpg" alt="Garten Vorher">
+            <img src="images/garden-before.jpg" alt="Verwilderter Garten vor der Umgestaltung in Wachtberg" loading="lazy">
             <div class="project-card-overlay">
               <div>
                 <h3>Garten Transformation</h3>
@@ -191,7 +267,7 @@
             </div>
           </div>
           <div class="project-card">
-            <img src="images/garden-after.jpg" alt="Garten Nachher">
+            <img src="images/garden-after.jpg" alt="Professionell gestalteter Traumgarten nach der Umgestaltung" loading="lazy">
             <div class="project-card-overlay">
               <div>
                 <h3>Garten Transformation</h3>
