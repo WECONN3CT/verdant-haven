@@ -1250,6 +1250,18 @@ img {
   box-shadow: 0 6px 20px rgba(37, 211, 102, 0.4);
 }
 
+.footer-cta-btn-instagram {
+  background: linear-gradient(45deg, #f09433 0%, #e6683c 25%, #dc2743 50%, #cc2366 75%, #bc1888 100%);
+  color: white;
+  box-shadow: 0 4px 15px rgba(225, 48, 108, 0.3);
+}
+
+.footer-cta-btn-instagram:hover {
+  background: linear-gradient(45deg, #e08529 0%, #d55d35 25%, #c9223c 50%, #b91f5c 75%, #a8157a 100%);
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(225, 48, 108, 0.4);
+}
+
 .footer-cta-icon {
   font-size: 1.1rem;
   display: inline-block;
