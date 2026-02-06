@@ -2921,10 +2921,10 @@ a.footer-contact-item-new:hover {
 
 .projects-cards .card-footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
   align-items: center;
   font-size: 0.9rem;
-  color: #1a1a1a;
+  color: var(--primary);
   font-weight: 600;
   padding-top: 1.25rem;
   border-top: 2px solid #f0f0f0;
