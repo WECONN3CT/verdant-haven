@@ -1946,6 +1946,12 @@ a.footer-contact-item-new:hover {
   animation: loader-breathe 2s ease-in-out infinite;
 }
 
+@media (min-width: 768px) {
+  .loader-logo {
+    width: 450px;
+  }
+}
+
 .loader-text {
   margin-top: 1.5rem;
   font-size: 0.9rem;
