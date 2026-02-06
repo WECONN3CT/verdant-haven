@@ -39,43 +39,41 @@
       <a href="index.html" class="logo">
         <img src="images/Haus-gartenservice.png" alt="Haus und Garten Service Logo" class="logo-img">
       </a>
-      <nav class="nav-links">
-        <a href="index.html">Startseite</a>
-        <a href="leistungen.html">Leistungen</a>
-        <a href="projekte.html">Projekte</a>
-        <a href="ueber-uns.html">Über Uns</a>
-        <a href="kontakt.html">Kontakt</a>
+
+      <nav class="nav-links" aria-label="Hauptnavigation">
+        <a href="index.html" class="nav-link">Startseite</a>
+        <a href="leistungen.html" class="nav-link">Leistungen</a>
+        <a href="projekte.html" class="nav-link">Projekte</a>
+        <a href="ueber-uns.html" class="nav-link">Über Uns</a>
+        <a href="kontakt.html" class="nav-link">Kontakt</a>
       </nav>
-      <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menü öffnen">
-        <span></span>
-        <span></span>
-        <span></span>
+
+      <div class="nav-cta">
+        <a href="tel:022259558997" class="btn btn-ghost">Anrufen</a>
+        <a href="kontakt.html" class="btn btn-primary">Angebot anfordern</a>
+      </div>
+
+      <button class="mobile-menu-btn" onclick="toggleMenu()" aria-label="Menü öffnen" aria-expanded="false" aria-controls="mobile-menu">
+        <svg id="menu-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+          <line x1="4" x2="20" y1="12" y2="12"></line>
+          <line x1="4" x2="20" y1="6" y2="6"></line>
+          <line x1="4" x2="20" y1="18" y2="18"></line>
+        </svg>
       </button>
     </div>
-  </header>
 
-  <!-- Mobile Menu -->
-  <div class="mobile-menu" id="mobile-menu">
-    <button class="mobile-menu-close" onclick="toggleMenu()" aria-label="Menü schließen">
-      <span></span>
-      <span></span>
-    </button>
-    <nav class="mobile-nav-links">
-      <a href="index.html" onclick="toggleMenu()">Startseite</a>
-      <a href="leistungen.html" onclick="toggleMenu()">Leistungen</a>
-      <a href="projekte.html" onclick="toggleMenu()">Projekte</a>
-      <a href="ueber-uns.html" onclick="toggleMenu()">Über Uns</a>
-      <a href="kontakt.html" onclick="toggleMenu()">Kontakt</a>
-    </nav>
-    <div class="mobile-menu-contact">
-      <a href="tel:022259558997" class="mobile-contact-btn">
-        <span>📞</span> 02225 9558997
-      </a>
-      <a href="https://wa.me/4922259558997" class="mobile-contact-btn whatsapp">
-        <span>💬</span> WhatsApp
-      </a>
+    <div id="mobile-menu" class="mobile-menu">
+      <a href="index.html">Startseite</a>
+      <a href="leistungen.html">Leistungen</a>
+      <a href="projekte.html">Projekte</a>
+      <a href="ueber-uns.html">Über Uns</a>
+      <a href="kontakt.html">Kontakt</a>
+      <div class="mobile-menu-cta">
+        <a href="tel:022259558997" class="btn btn-outline">📞 02225 9558997</a>
+        <a href="kontakt.html" class="btn btn-primary">Angebot anfordern</a>
+      </div>
     </div>
-  </div>
+  </header>
 
   <!-- Page Header -->
   <section class="page-header">
