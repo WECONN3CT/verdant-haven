@@ -1941,7 +1941,7 @@ a.footer-contact-item-new:hover {
 }
 
 .loader-logo {
-  width: 220px;
+  width: 350px;
   height: auto;
   animation: loader-breathe 2s ease-in-out infinite;
 }
