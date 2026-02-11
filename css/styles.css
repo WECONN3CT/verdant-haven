@@ -263,11 +263,6 @@ img {
   box-shadow: 0 10px 20px rgba(45, 80, 22, 0.2);
 }
 
-.btn-secondary {
-  background-color: var(--secondary);
-  color: var(--white);
-}
-
 .btn-outline {
   background: transparent;
   border: 2px solid var(--primary);
@@ -788,57 +783,6 @@ img {
 
 @media (min-width: 1024px) {
   .footer-grid { grid-template-columns: repeat(4, 1fr); }
-}
-
-.footer-col h4 {
-  font-size: 1.125rem;
-  margin-bottom: 1.5rem;
-  color: var(--foreground);
-}
-
-.footer-col p {
-  color: var(--muted-foreground);
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
-}
-
-.footer-col ul {
-  list-style: none;
-}
-
-.footer-col li {
-  margin-bottom: 0.75rem;
-}
-
-.footer-col a {
-  color: var(--muted-foreground);
-  transition: color 0.2s;
-}
-
-.footer-col a:hover {
-  color: var(--primary);
-}
-
-.footer-social {
-  display: flex;
-  gap: 0.75rem;
-}
-
-.footer-social a {
-  width: 40px;
-  height: 40px;
-  background: var(--muted);
-  border-radius: 8px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  transition: background 0.2s;
-  color: var(--foreground);
-}
-
-.footer-social a:hover {
-  background: var(--primary);
-  color: var(--white);
 }
 
 .footer-contact-item {
