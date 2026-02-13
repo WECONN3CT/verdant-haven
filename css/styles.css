@@ -494,6 +494,7 @@ img {
 /* Section Styles */
 .section {
   padding: 5rem 0;
+  background-color: #b8e6c1 !important;
 }
 
 @media (min-width: 768px) {
@@ -1099,7 +1100,7 @@ img {
 
 /* ==================== NEW FOOTER STYLES ==================== */
 .footer-new {
-  background: linear-gradient(180deg, #f8f9fa 0%, #ffffff 100%);
+  background: linear-gradient(180deg, #c8ecd0 0%, #b8e6c1 100%);
 }
 
 /* Footer CTA Banner */
@@ -1473,8 +1474,8 @@ a.footer-contact-item-new:hover {
 
 /* Footer Bottom */
 .footer-bottom-new {
-  background: white;
-  border-top: 1px solid var(--border);
+  background: #a8e0b5;
+  border-top: 1px solid rgba(45, 106, 79, 0.2);
   padding: 1.25rem 0;
 }
 
@@ -1618,7 +1619,7 @@ a.footer-contact-item-new:hover {
   display: flex;
   align-items: center;
   overflow: hidden;
-  background: linear-gradient(160deg, #ffffff 0%, #f8faf5 40%, #f5f7f2 100%);
+  background: linear-gradient(160deg, #c8ecd0 0%, #b8e6c1 40%, #a8e0b5 100%);
 }
 
 /* Subtle gradient overlay */
